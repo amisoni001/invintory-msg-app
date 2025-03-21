@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "db12b86ca1ca611e6fa6547f031f6c68"
+application_url = "https://fellow-defensive-practitioners-although.trycloudflare.com"
+embedded = true
+name = "inventory-message-app"
+handle = "inventory-message-app-1"
+
+[build]
+include_config_on_deploy = true
+dev_store_url = "dev-app-checkout-ui.myshopify.com"
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-01"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products,write_price_rules,read_price_rules,read_inventory"
+
+[auth]
+redirect_urls = [
+  "https://fellow-defensive-practitioners-although.trycloudflare.com/auth/callback",
+  "https://fellow-defensive-practitioners-although.trycloudflare.com/auth/shopify/callback",
+  "https://fellow-defensive-practitioners-although.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
