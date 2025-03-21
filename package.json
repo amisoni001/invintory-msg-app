@@ -8,6 +8,7 @@
     "build": "shopify app build",
     "dev": "shopify app dev",
     "start": "node web/index.js",
+    "vercel-start": "node web/index.js",
     "info": "shopify app info",
     "generate": "shopify app generate",
     "deploy": "shopify app deploy"
