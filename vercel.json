@@ -10,7 +10,10 @@
       },
       {
         "src": "/web/index.js",
-        "use": "@vercel/node"
+        "use": "@vercel/node",
+        "config": {
+          "includeFiles": ["web/**"]
+        }
       }
     ],
     "routes": [
@@ -29,8 +32,8 @@
         "dest": "/web/frontend/static/$1"
       },
       {
-        "src": "/(.*)",
-        "dest": "/web/frontend/$1"
+        "src": "^/(?!api)",
+        "dest": "/web/frontend/index.html"
       }
     ]
 }
