@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "db12b86ca1ca611e6fa6547f031f6c68"
-application_url = "https://fellow-defensive-practitioners-although.trycloudflare.com"
+application_url = "https://capital-rise-hard-worst.trycloudflare.com"
 embedded = true
 name = "inventory-message-app"
 handle = "inventory-message-app-1"
@@ -20,9 +20,9 @@ scopes = "write_products,write_price_rules,read_price_rules,read_inventory"
 
 [auth]
 redirect_urls = [
-  "https://fellow-defensive-practitioners-although.trycloudflare.com/auth/callback",
-  "https://fellow-defensive-practitioners-although.trycloudflare.com/auth/shopify/callback",
-  "https://fellow-defensive-practitioners-although.trycloudflare.com/api/auth/callback"
+  "https://capital-rise-hard-worst.trycloudflare.com/auth/callback",
+  "https://capital-rise-hard-worst.trycloudflare.com/auth/shopify/callback",
+  "https://capital-rise-hard-worst.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
